@@ -1,0 +1,86 @@
+# Папки и файлы, специфичные для операционных систем
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Файлы и папки IDE (Visual Studio, VS Code, Rider, etc.)
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Скомпилированные бинарные файлы и папки сборки
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+[Aa]rm/
+[Aa]rm64/
+[Xx]86/
+[Xx]64/
+build/
+dist/
+publish/
+
+# Зависимости, управляемые менеджерами пакетов
+# (раскомментируйте или добавьте нужные для вашего проекта)
+
+# NuGet
+packages/
+*.nupkg
+# Если используете PackageReference, то пакеты обычно в глобальном кэше,
+# но project.assets.json в obj/ игнорируется выше.
+
+# Node.js / npm / yarn
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json # Если хотите, чтобы каждый разработчик генерировал свой
+# yarn.lock         # Аналогично для yarn
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+*.egg-info/
+.ipynb_checkpoints
+
+# Лог-файлы
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*~
+*.bak
+*.swp
+
+# Файлы конфигурации среды (часто содержат секреты)
+.env
+.env.*
+!.env.example # Можно оставить пример файла .env
+
+# Специфичные для некоторых типов проектов
+# Например, для тестов
+TestResults/
+*.trx
+
+# Если используете SQLite локально для разработки
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# Добавьте сюда любые другие файлы или папки,
+# которые не должны быть в репозитории.
+# Например, если вы генерируете большие датасеты локально:
+# large_dataset_output/
